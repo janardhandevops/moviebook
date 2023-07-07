@@ -23,9 +23,10 @@ import java.util.List;
 import java.util.Set;
 
 @Controller
-@RequestMapping("/movies")
+@RequestMapping("/movies")w
 public class MovieController {
     //comments updated in MovieController
+    //new comments updated by janardhandevops
     private static final DateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd");
     private final Logger LOGGER = LoggerFactory.getLogger(this.getClass());
 
